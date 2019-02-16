@@ -1,0 +1,198 @@
+body, html {
+	height: 100%;
+	margin:0;
+	font-size:16px;
+	font-family:"Lato", sans-serif;
+	font-weight:400;
+	line-height:1.8em;
+	color:#667;
+	position:relative;
+}
+
+nav.shrink {
+background-color: rgba(0,0,0,.5);
+}
+
+.img1, .img2, .img3, .img4, .img5{
+	position:relative;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+
+	background-attachment:fixed;
+}
+
+.img1{
+	background-image: url('IMG_1.jpg');
+	min-height:100%;
+}
+
+.img2{
+	background-image: url('IMG_2.jpg');
+	min-height:400px;
+}
+
+.img3{
+	background-image: url('IMG_3.jpg');
+	min-height:400px;
+}
+
+.img4{
+	background-image: url('IMG_4.jpg');
+	min-height:400px;
+}
+
+.img5{
+	background-image: url('IMG_5.jpg');
+	min-height:400px;
+}
+
+.circle-img{
+	width:9%;
+	height:auto;
+	border-radius:50%;
+	position: center;
+	margin-bottom:1%;
+}
+.section{
+	text-align:center;
+	padding:1% 5%;
+}
+
+.section-light{
+	background-color:f4f4f4;
+	/*background-color:#282e34;*/
+	color:#667;
+}
+
+.section-dark{
+	background-color:#282e34;
+	color:#ddd;
+}
+
+.section-black{
+	background-color:black;
+	color:white;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+
+.experience{
+	text-align: left;
+}
+
+.hand{
+	height:200px;
+	width: auto;
+	margin: 10px;
+	padding-bottom: 30px;
+}
+
+.hand_1{
+	height:250px;
+	width: auto;
+	margin: 0px 10px 20px 20px;
+}
+
+.vacuum_chamber{
+}
+
+.hand_2{
+	height:250px;
+	width: auto;
+	margin: 10px 10px 30px 20px;
+
+}
+
+.hand_3{
+	height:350px;
+	width: auto;
+	margin: 10px 10px 30px 20px;
+
+}
+
+.collage{
+	height:auto;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.hand_video{
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.p3{
+	padding-bottom: 10px;
+}
+
+.ptext{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	color:#000;
+	font-size:27px;
+	letter-spacing:8px;
+	text-transform: uppercase;
+}
+
+.ptext .frame{
+	background-color:#111;
+	color:#fff;
+	padding:20px;
+}
+
+.description{
+	background-color:transparent;
+	color:#000;
+	font-size: 20px;
+	margin-top:40px;
+}
+
+/*.annoying{
+	position: sticky;
+	background-color:transparent;
+	padding-top:-20px
+	opacity: .5;
+	z-index: -1;
+}*/
+
+.ptext .frame.trans{
+	background-color: transparent;
+}
+
+.last{
+	position:absolute;
+	top:37%;
+	width:100%;
+	line-height: 2;
+	text-align:center;
+	color:#000;
+	font-size:27px;
+	letter-spacing:8px;
+	text-transform: uppercase;
+	background-color:#transparent;
+	color:#fff;
+}
+
+
+/*.container {
+	max-width: cover;
+	margin: 0 auto;
+	font-size: 24px;
+	padding: 0px;
+}
+
+.full {
+	background-size: 100%;
+}
+
+.parallax{
+	background: url('IMG_1.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment:  fixed;
+	height: 500px;
+}*/
