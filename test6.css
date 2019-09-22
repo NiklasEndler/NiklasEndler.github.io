@@ -20,14 +20,14 @@ background-color: rgba(0,0,0,.5);
 	background-repeat:no-repeat;
 
 
-	background-attachment:scroll;
+	background-attachment:fixed;
 }
 
-/*@media(max-width:750px){
+@media(max-width:1079px){
 	.img1, .img2, .img3, .img4, .img5{
 		background-attachment: scroll;
 	}
-}*/
+}
 
 .img1{
 	background-image: url('IMG_1.jpg');
