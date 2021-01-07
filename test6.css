@@ -70,11 +70,13 @@ background-color: rgba(0,0,0,.5);
 	background-color:f4f4f4;
 	/*background-color:#282e34;*/
 	color:#667;
+	padding-bottom: 20px;
 }
 
 .section-dark{
 	background-color:#282e34;
 	color:#ddd;
+	padding-bottom: 20px
 }
 
 .section-black{
@@ -83,31 +85,39 @@ background-color: rgba(0,0,0,.5);
 	font-family:"Arial Black", Gadget, sans-serif;
 }
 
+.about{
+	text-align: left;
+}
+
 .experience{
 	text-align: left;
 }
 
+.center{
+	text-align: left;
+}
+	
 .hand{
 	height:200px;
 	width: auto;
 	margin: 10px;
 	padding-bottom: 30px;
+	text-align: center;
 }
 
 .hand_1{
 	height:250px;
 	width: auto;
 	margin: 0px 10px 20px 20px;
+	text-align: center;
 }
 
-.vacuum_chamber{
-}
 
 .hand_2{
 	height:250px;
 	width: auto;
 	margin: 10px 10px 30px 20px;
-
+	text-align: center;
 }
 
 .hand_3{
