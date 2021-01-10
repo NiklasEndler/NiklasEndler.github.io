@@ -57,7 +57,7 @@ background-color: rgba(0,0,0,.5);
 .circle-img{
 	width:9%;
 	height:auto;
-	border-radius:50%;
+	border-radius:10%;
 	position: center;
 	margin-bottom:1%;
 }
@@ -127,12 +127,18 @@ background-color: rgba(0,0,0,.5);
 
 }
 
+.profilepic{
+	height: 200px;
+	width: auto;
+	margin: 10px 0px 10px 0px;;
+	border-radius: 0%;
+}
+
 .intern{
 	width: 500px;
 	height: auto;
-	margin: 10px 10px 0px 10px;;
-	border-radius: 3%;
-
+	margin: 10px 0px 10px 0px;;
+	border-radius: 2%;
 }
 
 
@@ -154,7 +160,7 @@ background-color: rgba(0,0,0,.5);
 
 .hand_video{
 	padding-top: 10px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 }
 
 .p3{
