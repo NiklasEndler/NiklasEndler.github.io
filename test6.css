@@ -127,6 +127,15 @@ background-color: rgba(0,0,0,.5);
 
 }
 
+.intern{
+	width: 500px;
+	height: auto;
+	margin: 10px 10px 0px 10px;;
+	border-radius: 3%;
+
+}
+
+
 .research_1{
 	height:250px;
 	width: auto;
