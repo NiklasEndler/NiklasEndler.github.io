@@ -13,7 +13,7 @@ nav.shrink {
 background-color: rgba(0,0,0,.5);
 }
 
-.img1, .img2, .img3, .img4, .img5{
+.img1, .img2, .img3, .img4, .img5, .img6{
 	position:relative;
 	background-position:center;
 	background-size:cover;
@@ -23,11 +23,11 @@ background-color: rgba(0,0,0,.5);
 	background-attachment:fixed;
 }
 
-@media(max-width:1070px){
-	.img1, .img2, .img3, .img4, .img5{
+/*@media(max-width:1070px){
+	.img1, .img2, .img3, .img4, .img5, .img6{
 		background-attachment: scroll;
 	}
-}
+}*/
 
 .img1{
 	background-image: url('IMG_1.jpg');
@@ -51,6 +51,11 @@ background-color: rgba(0,0,0,.5);
 
 .img5{
 	background-image: url('IMG_5.jpg');
+	min-height:400px;
+}
+
+.img6{
+	background-image: url('IMG_6.jpg');
 	min-height:400px;
 }
 
